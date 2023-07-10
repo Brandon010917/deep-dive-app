@@ -33,7 +33,7 @@ const StartGameScreen = ({ onPickNumber }) => {
   };
 
   return (
-    <View style={styles.inputcontainer}>
+    <View style={styles.inputContainer}>
       <TextInput
         style={styles.numberInput}
         maxLength={2}
@@ -58,8 +58,7 @@ const StartGameScreen = ({ onPickNumber }) => {
 };
 
 const styles = StyleSheet.create({
-  inputcontainer: {
-    marginTop: 100,
+  inputContainer: {
     padding: 16,
     backgroundColor: "#3b021f",
     marginHorizontal: 24,
